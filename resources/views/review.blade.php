@@ -59,6 +59,9 @@
             na svetových prácach. A kým si urobíš čaj,
             môže prísť pozvanie na kávu od nás.
         </p>
+        <div class="arrow-wrapper mt-5">
+            <img src="{{asset('imgs/arrow.svg')}}" alt="arrow" style="text-align: center">
+        </div>
     </div>
     <div class="section-content-wrapper bg-white">
 

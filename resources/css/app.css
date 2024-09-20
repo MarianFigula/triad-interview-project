@@ -125,6 +125,11 @@ section {
     }
 }
 
+.arrow-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 
 .text-green {
     color: var(--green);
