@@ -21,8 +21,9 @@ header {
     ul {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         list-style: none;
-        padding: 1rem 2rem;
+        padding: 0.5rem 2rem;
     }
 }
 
