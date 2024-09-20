@@ -51,6 +51,12 @@ h2 {
 .mt-3{
     margin-top: 3rem;
 }
+.mt-5{
+    margin-top: 5rem;
+}
+.ms-3 {
+    margin-left: 3rem;
+}
 
 section {
     display: flex;
@@ -137,5 +143,8 @@ section {
 @media screen and (max-width: 768px) {
     section {
         flex-direction: column;
+    }
+    .wosa-wrapper {
+        flex-wrap: wrap;
     }
 }
