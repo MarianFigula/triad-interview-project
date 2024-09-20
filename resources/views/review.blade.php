@@ -94,5 +94,16 @@
                 </a>
         </div>
     </section>
+
+    <section class="bg-dark">
+        <div class="section-content-wrapper">
+            <h2>1. Nahraj CV</h2>
+        </div>
+        <hr class="vertical-line"/>
+        <div class="section-content-wrapper">
+            <h2>2. Opíš prácu</h2>
+        </div>
+    </section>
+
     </body>
 </html>
