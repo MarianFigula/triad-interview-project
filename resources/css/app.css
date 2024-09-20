@@ -18,6 +18,10 @@ body {
 }
 
 
+.green-frame {
+    border: 0.5rem solid var(--green);
+}
+
 section {
     display: flex;
     justify-content: center;
