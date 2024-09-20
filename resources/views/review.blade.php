@@ -109,7 +109,12 @@
                    placeholder="E-mail"
                    required>
 
-            <label for="file" class="">Nahraj svoje CV</label>
+            <label for="file" class="custom-file-upload">
+                <a href=""
+                   class="text-green
+                text-underline-offset-0-5">
+                    Nahraj svoje CV</a>
+            </label>
             <input type="file" id="file" name="file">
         </div>
 
