@@ -42,7 +42,7 @@ h2 {
 
 
 .green-frame {
-    border: 0.5rem solid var(--green);
+    border: 1rem solid var(--green);
 }
 
 .fw-bold {
