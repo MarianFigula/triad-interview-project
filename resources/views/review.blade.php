@@ -96,12 +96,48 @@
     </section>
 
     <section class="bg-dark">
-        <div class="section-content-wrapper">
-            <h2>1. Nahraj CV</h2>
-        </div>
-        <hr class="vertical-line"/>
-        <div class="section-content-wrapper">
-            <h2>2. Opíš prácu</h2>
+        <div class="form-section-content-wrapper">
+            <div class="form-left">
+                <h2 class="mb-3">1. Nahraj CV</h2>
+                <label for="name">Napíš nám ako sa voláš</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Meno a priezvisko"
+                       required>
+
+                <label for="email">Kontakt na teba</label>
+                <input type="email" id="email" name="email"
+                       placeholder="E-mail"
+                       required>
+
+                <label for="file" class="">Nahraj svoje CV</label>
+                <input type="file" id="file" name="file">
+            </div>
+
+            <hr class="vertical-line"/>
+
+            <div class="form-right">
+                <h2>2. Opíš prácu</h2>
+                <label for="description">Opis práce</label>
+                <textarea
+                    id="description"
+                    name="description"
+                    rows="7"
+                    placeholder="Sem opíš svoju prácu, ktorú máš rád, alebo chceš vylepšiť"
+                    required></textarea>
+
+
+                    <label for="agree" class="fs-0-75">
+                        <input type="checkbox" id="agree" name="agree">
+                        Súhlasím so spracovaním
+                        <a href="" class="text-green">
+                            osobných údajov
+                        </a>
+                    </label>
+                    <button type="submit">Odoslať</button>
+
+
+
+            </div>
         </div>
     </section>
 
