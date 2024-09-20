@@ -49,7 +49,9 @@
                 s ktorou si fakt spokojný 🙌
             </h2>
             <p>
-                Najskôr ti ju okomentuje naše AI vytrénované
+                <span class="fw-bold">
+                    Najskôr ti ju okomentuje naše AI vytrénované
+                </span>
                 na svetových prácach. A kým si urobíš čaj,
                 môže prísť pozvanie na kávu od nás.
             </p>
