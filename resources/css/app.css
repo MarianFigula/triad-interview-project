@@ -44,6 +44,9 @@ section {
         width: 50%;
         margin: 0 10%;
         h1 {
+            font-size: 4rem;
+        }
+        h2 {
             font-size: 3rem;
         }
     }
