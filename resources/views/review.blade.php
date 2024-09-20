@@ -47,7 +47,7 @@
     </div>
 
     <section>
-        <div class="section-content-wrapper">
+        <div class="section-content-wrapper bg-dark">
             <h2>
                 Opíš nám svoju prácu,
                 s ktorou si fakt spokojný 🙌
@@ -60,7 +60,7 @@
                 môže prísť pozvanie na kávu od nás.
             </p>
         </div>
-        <div class="section-content-wrapper">
+        <div class="section-content-wrapper bg-white">
 
             <div class="wosa-wrapper">
                 <div class="wosa-img">
