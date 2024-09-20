@@ -275,3 +275,31 @@ input[type="checkbox"] {
         color: rgba(242, 240, 228,0.4)
     }
 }
+
+
+.triad-group {
+    position: relative;
+
+    &::before,
+    &::after {
+        position: absolute;
+        content: "";
+        background-image: url("../../public/imgs/footer-img.png");
+        background-size: cover; /* Ensures the image covers the pseudo-element */
+        width: 100%; /* Set a width */
+        height: 100%; /* Set a height */
+        z-index: 0;
+    }
+
+    &::before {
+        top: 0;
+        left: 0;
+        transform: translate(1vw, 1vw);
+    }
+
+    &::after {
+        top: 0;
+        left: 0;
+        transform: translate(2vw, 2vw);
+    }
+}
