@@ -131,7 +131,7 @@
             <textarea
                 id="description"
                 name="description"
-                rows="7"
+                rows="15"
                 placeholder="Sem opíš svoju prácu, ktorú máš rád, alebo chceš vylepšiť"
                 required></textarea>
 
