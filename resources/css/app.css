@@ -225,7 +225,7 @@ textarea {
 
 .agreement-wrapper {
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -363,5 +363,6 @@ footer {
     }
     .wosa-wrapper {
         flex-wrap: wrap;
+        justify-content: center;
     }
 }
