@@ -187,13 +187,13 @@ section {
 }
 
 input, textarea {
-    padding: 1rem;
+    padding: 20px 30px;
     margin-bottom: 2rem;
     width: 90%;
     background-color: var(--primary-dark);
     color: var(--primary-white);
     border: 1px solid rgba(242, 240, 228,0.1);
-    border-radius: 4px;
+    border-radius: 10px;
     &::placeholder {
         color: var(--primary-white);
     }
