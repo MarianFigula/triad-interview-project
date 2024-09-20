@@ -98,7 +98,7 @@
 <section class="bg-dark">
     <div class="form-section-content-wrapper">
         <div class="form-left">
-            <h2 class="mb-3">
+            <h2 class="">
                 <img src="{{asset('imgs/number-one-in-circle.svg')}}" alt="one">
                 Nahraj CV
             </h2>
@@ -124,7 +124,9 @@
         <hr class="vertical-line"/>
 
         <div class="form-right">
-            <h2>2. Opíš prácu</h2>
+            <h2 class="">
+                <img src="{{asset('imgs/number-two-in-circle.svg')}}" alt="one">
+                Opíš prácu</h2>
             <label for="description">Opis práce</label>
             <textarea
                 id="description"
