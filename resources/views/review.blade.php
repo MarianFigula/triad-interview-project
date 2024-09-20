@@ -57,10 +57,33 @@
             </p>
         </div>
         <div class="section-content-wrapper">
-            <h2>
-                Opíš nám svoju prácu,
-                s ktorou si fakt spokojný 🙌
-            </h2>
+
+            <div class="">
+                <img src="" alt="Wosa">
+                <div>
+                    <h2>
+                        <span class="text-green">Wosa</span>
+                        ti dá feedback
+                    </h2>
+                    <p class="">
+                        <span class="fw-bold">
+                            Chief Creative and Strategy Officer
+                        </span>
+                        <br>
+                        pre slovenský a český TRIAD.
+                    </p>
+                </div>
+                <p>
+                    Držtieľ ocenenia Filip,
+                    majiteľ stoviek ocenení od slovenských grand prix,
+                    cez New York až po globálne ocenenia na Warc,
+                    Effie a Saber
+                </p>
+                <a href=""
+                   class="text-underline-offset-0-5 text-dark">
+                    Poď si po feedback od AI Wosu
+                </a>
+            </div>
         </div>
     </section>
     </body>
