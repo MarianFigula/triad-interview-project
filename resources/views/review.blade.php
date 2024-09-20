@@ -8,7 +8,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
-<div class="green-frame">
+<div class="green-frame bg-dark">
     <header>
         <nav>
             <ul>
@@ -28,7 +28,7 @@
         </nav>
     </header>
 
-    <section class="bg-dark">
+    <section class="">
         <div class="section-content-wrapper">
             <h1 class="review-head">
                 Review
@@ -47,7 +47,7 @@
 </div>
 
 <section>
-    <div class="section-content-wrapper bg-dark">
+    <div class="section-content-wrapper">
         <h2>
             Opíš nám svoju prácu,
             s ktorou si fakt spokojný 🙌
