@@ -162,14 +162,6 @@ section {
 }
 
 
-@media screen and (max-width: 768px) {
-    section {
-        flex-direction: column;
-    }
-    .wosa-wrapper {
-        flex-wrap: wrap;
-    }
-}
 
 
 /* ----- */
@@ -348,5 +340,28 @@ footer {
         text-align: left;
 
         margin-right: 10%;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    section, .form-section-content-wrapper {
+        flex-direction: column;
+    }
+    .form-left, .form-right {
+        width: 90%;
+        margin: 0 auto;
+    }
+    input, textarea {
+        width: auto;
+    }
+
+
+    .vertical-line {
+        display: none;
+    }
+    .wosa-wrapper {
+        flex-wrap: wrap;
     }
 }
