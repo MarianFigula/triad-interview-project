@@ -45,12 +45,36 @@ section {
         margin: 0 10%;
         h1 {
             font-size: 4rem;
+            font-weight: 900;
         }
         h2 {
             font-size: 3rem;
         }
     }
 }
+
+/*.review-head {*/
+/*    position: relative;*/
+/*    color: var(--light-blue);*/
+/*    margin-bottom: 50px;*/
+/*    &::before {*/
+/*        position: absolute;*/
+/*        content: "Review";*/
+/*        color: var(--green);*/
+/*        transform: translate(6vw, 6.5vw);*/
+/*        z-index: 0;*/
+/*    }*/
+
+/*    &::after {*/
+/*        position: absolute;*/
+/*        content: "Review";*/
+/*        color: var(--primary-white);*/
+/*        top: 0;*/
+/*        left: 0;*/
+/*        transform: translate(6vw, 13vw);*/
+/*    }*/
+/*}*/
+
 
 .text-green {
     color: var(--green);
