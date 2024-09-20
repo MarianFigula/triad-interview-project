@@ -153,36 +153,5 @@
     </div>
 </section>
 
-<section class="bg-white">
-    <div class="section-content-wrapper">
-        <h1>Toto sme my, <span class="text-green">TRIAD</span></h1>
-        <p>
-            <span class="fw-bold">Už takmer dekádu sme
-                špička slovenskej reklamy.
-            Sme trojnásobná agentúra roka
-            </span> a pracujeme pre klientov, ako sú:
-            O2, VÚB, Fun Rádio, Rádio Vlna, LIDL, Martinus,
-            Slido, Corwin či mnohí ďalší.
-        </p>
-        <p>
-            Baví nás robiť svetovú prácu ale popri tom si ulietať
-            aj na humore na hrane či láskavej šikane.
-            V TRIADe žijeme reklamou priamo pri hrade v malebnom
-            Devíne ale čochvíľa team, kam hľadáme ideamakra, bude užívať
-            nie len krásy domčeka,
-            ale časť týždna aj nové moderné priestory v Eurovea2.
-        </p>
-    </div>
-    <div class="section-content-wrapper">
-        <div class="triad-group">
-            <img src="{{asset('imgs/footer-img.png')}}" alt="triad-group">
-        </div>
-    </div>
-</section>
-
-<footer class="bg-white">
-
-</footer>
-
 </body>
 </html>
