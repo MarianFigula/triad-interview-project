@@ -33,7 +33,7 @@
                 <h1 class="review-head">
                     Review
                 </h1>
-                <h1>ktoré ťa posunie</h1>
+                <h1 class="mt-5 ms-3 text-green">ktoré ťa posunie</h1>
             </div>
             <div class="section-content-wrapper">
                 <h2>Vždy si túžil po feedbacku, ktorý ťa posunie?
