@@ -16,7 +16,7 @@
                         <img src="" alt="Triad Logo">
                     </li>
                     <li>
-                        <a href="#">Chcem feedback</a>
+                        <a href="#" class="text-green">Chcem feedback</a>
                     </li>
                 </ul>
             </nav>
