@@ -135,15 +135,17 @@
                 placeholder="Sem opíš svoju prácu, ktorú máš rád, alebo chceš vylepšiť"
                 required></textarea>
 
-
-            <label for="agree" class="">
-                <input type="checkbox" id="agree" name="agree">
-                Súhlasím so spracovaním
-                <a href="" class="text-green">
-                    osobných údajov
-                </a>
-            </label>
-            <button type="submit" class="fw-bold">Odošli a vyhodnoť</button>
+            <div class="agreement-wrapper">
+                <div class="agreement">
+                    <label for="agree"></label>
+                    <input type="checkbox" id="agree" name="agree">
+                    Súhlasím so spracovaním
+                    <a href="" class="text-green">
+                        osobných údajov
+                    </a>
+                </div>
+                <button type="submit" class="fw-bold">Odošli a vyhodnoť</button>
+            </div>
         </div>
     </div>
 </section>
