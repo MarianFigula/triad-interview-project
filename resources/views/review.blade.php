@@ -28,9 +28,11 @@
             </nav>
         </header>
 
-        <section class="bg-white">
+        <section class="bg-dark">
             <div class="section-content-wrapper">
-                <h1>Review</h1>
+                <h1 class="review-head">
+                    Review
+                </h1>
                 <h1>ktoré ťa posunie</h1>
             </div>
             <div class="section-content-wrapper">
