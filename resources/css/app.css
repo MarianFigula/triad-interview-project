@@ -53,6 +53,14 @@ section {
     color: var(--green);
 }
 
+.text-white {
+    color: var(--primary-white)
+}
+
+.text-dark {
+    color: var(--primary-dark);
+}
+
 .bg-white {
     background-color: var(--primary-white);
 }
