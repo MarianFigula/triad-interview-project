@@ -16,7 +16,11 @@
                         <img src="" alt="Triad Logo">
                     </li>
                     <li>
-                        <a href="#" class="text-green text-underline-offset-0-5">Chcem feedback</a>
+                        <a href="#"
+                           class="text-green
+                           text-underline-offset-0-5
+                           fw-bold"
+                        >Chcem feedback</a>
                     </li>
                 </ul>
             </nav>
@@ -37,5 +41,25 @@
 
         </section>
     </div>
+
+    <section>
+        <div class="section-content-wrapper">
+            <h2>
+                Opíš nám svoju prácu,
+                s ktorou si fakt spokojný 🙌
+            </h2>
+            <p>
+                Najskôr ti ju okomentuje naše AI vytrénované
+                na svetových prácach. A kým si urobíš čaj,
+                môže prísť pozvanie na kávu od nás.
+            </p>
+        </div>
+        <div class="section-content-wrapper">
+            <h2>
+                Opíš nám svoju prácu,
+                s ktorou si fakt spokojný 🙌
+            </h2>
+        </div>
+    </section>
     </body>
 </html>

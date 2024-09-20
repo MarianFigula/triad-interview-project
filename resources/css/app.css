@@ -24,9 +24,6 @@ header {
         list-style: none;
         padding: 1rem 2rem;
     }
-    a {
-        font-weight: bold;
-    }
 }
 
 .text-underline-offset-0-5 {
@@ -36,6 +33,10 @@ header {
 
 .green-frame {
     border: 0.5rem solid var(--green);
+}
+
+.fw-bold {
+    font-weight: bold;
 }
 
 section {
