@@ -60,8 +60,12 @@
         </div>
         <div class="section-content-wrapper">
 
-            <div class="">
-                <img src="" alt="Wosa">
+            <div class="wosa-wrapper">
+                <div class="wosa-img">
+                    <img
+                        src="{{asset('imgs/wosa.svg')}}"
+                        alt="Wosa">
+                </div>
                 <div>
                     <h2>
                         <span class="text-green">Wosa</span>
@@ -75,6 +79,7 @@
                         pre slovenský a český TRIAD.
                     </p>
                 </div>
+            </div>
                 <p>
                     Držtieľ ocenenia Filip,
                     majiteľ stoviek ocenení od slovenských grand prix,
@@ -85,7 +90,6 @@
                    class="text-underline-offset-0-5 text-dark">
                     Poď si po feedback od AI Wosu
                 </a>
-            </div>
         </div>
     </section>
     </body>
