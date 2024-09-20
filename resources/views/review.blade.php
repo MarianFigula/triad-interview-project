@@ -8,6 +8,17 @@
         <link rel="stylesheet" href="../css/app.css">
     </head>
     <body>
-
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <img src="" alt="Triad Logo">
+                </li>
+                <li>
+                    <a href="#">Chcem feedback</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     </body>
 </html>
