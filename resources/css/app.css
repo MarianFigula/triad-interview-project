@@ -26,6 +26,14 @@ header {
     }
 }
 
+h1 {
+    font-size: 4rem;
+    font-weight: 900;
+}
+h2 {
+    font-size: 3rem;
+}
+
 .text-underline-offset-0-5 {
     text-underline-offset: 0.5rem;
 }
@@ -47,13 +55,6 @@ section {
     .section-content-wrapper {
         width: 50%;
         margin: 0 10%;
-        h1 {
-            font-size: 4rem;
-            font-weight: 900;
-        }
-        h2 {
-            font-size: 3rem;
-        }
         p {
             margin-top: 3rem;
             font-size: 1.25rem;
