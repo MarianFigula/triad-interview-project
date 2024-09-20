@@ -98,7 +98,10 @@
 <section class="bg-dark">
     <div class="form-section-content-wrapper">
         <div class="form-left">
-            <h2 class="mb-3">1. Nahraj CV</h2>
+            <h2 class="mb-3">
+                <img src="{{asset('imgs/number-one-in-circle.svg')}}" alt="one">
+                Nahraj CV
+            </h2>
             <label for="name">Napíš nám ako sa voláš</label>
             <input type="text" id="name" name="name"
                    placeholder="Meno a priezvisko"
