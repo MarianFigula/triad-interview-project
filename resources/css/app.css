@@ -99,8 +99,10 @@ section {
 
 .bg-white {
     background-color: var(--primary-white);
+    color: var(--primary-dark);
 }
 
 .bg-dark {
     background-color: var(--primary-dark);
+    color: var(--primary-white);
 }
