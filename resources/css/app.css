@@ -24,3 +24,11 @@ section {
 .text-green {
     color: var(--green);
 }
+
+.bg-white {
+    background-color: var(--primary-white);
+}
+
+.bg-dark {
+    background-color: var(--primary-dark);
+}
