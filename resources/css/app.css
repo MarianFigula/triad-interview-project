@@ -60,9 +60,6 @@ section {
     .section-content-wrapper {
         width: 50%;
         margin: 0 10%;
-        p {
-            font-size: 1.25rem;
-        }
     }
 }
 
