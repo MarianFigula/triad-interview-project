@@ -47,7 +47,7 @@
 </div>
 
 <section>
-    <div class="section-content-wrapper">
+    <div class="section-content-wrapper bg-dark">
         <h2>
             Opíš nám svoju prácu,
             s ktorou si fakt spokojný 🙌
