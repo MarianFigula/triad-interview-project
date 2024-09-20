@@ -17,6 +17,20 @@ body {
     margin: 0;
 }
 
+header {
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: 1rem 2rem;
+    }
+    a {
+        text-underline-offset: 0.5rem;
+        font-weight: bold;
+    }
+}
+
+
 
 .green-frame {
     border: 0.5rem solid var(--green);
