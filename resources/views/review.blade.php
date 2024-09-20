@@ -15,7 +15,7 @@
                     <img src="" alt="Triad Logo">
                 </li>
                 <li>
-                    <a href="{{route('#')}}">Chcem feedback</a>
+                    <a href="#">Chcem feedback</a>
                 </li>
             </ul>
         </nav>
