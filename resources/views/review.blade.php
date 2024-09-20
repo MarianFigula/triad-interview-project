@@ -13,7 +13,7 @@
             <nav>
                 <ul>
                     <li>
-                        <img src="" alt="Triad Logo">
+                        <img src="{{asset("imgs/TRIAD-Logo-v01-01.svg")}}" alt="Triad Logo">
                     </li>
                     <li>
                         <a href="#"
