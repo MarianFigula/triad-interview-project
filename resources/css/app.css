@@ -25,11 +25,13 @@ header {
         padding: 1rem 2rem;
     }
     a {
-        text-underline-offset: 0.5rem;
         font-weight: bold;
     }
 }
 
+.text-underline-offset-0-5 {
+    text-underline-offset: 0.5rem;
+}
 
 
 .green-frame {
