@@ -143,7 +143,7 @@
                     osobných údajov
                 </a>
             </label>
-            <button type="submit">Odošli a vyhodnoť</button>
+            <button type="submit" class="fw-bold">Odošli a vyhodnoť</button>
         </div>
     </div>
 </section>
