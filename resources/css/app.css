@@ -2,7 +2,7 @@
 
 :root {
     --primary-white: #F2F0E4;
-    --primary-dark: #1A1A1A;
+    --primary-dark: #000000;
     --green: #81DD77;
     --light-blue: #91DDEE;
 
@@ -56,6 +56,10 @@ h2 {
 }
 .ms-3 {
     margin-left: 3rem;
+}
+
+.ms-1 {
+    margin-left: 1rem;
 }
 
 section {
@@ -301,5 +305,43 @@ input[type="checkbox"] {
         top: 0;
         left: 0;
         transform: translate(2vw, 2vw);
+    }
+}
+
+.decoration-underline {
+    text-decoration: underline;
+}
+
+footer {
+    min-height: 50vh;
+    padding-left: 10%;
+    font-weight: 800;
+    .logo-wrapper {
+        position: relative;
+        &::after {
+            position: absolute;
+            content: "";
+            top: 20px;
+            left: 20px;
+            width: 50px;
+            height: 30px;
+            background-color: var(--green);
+        }
+    }
+    .member-wrapper, .link-wrapper {
+        display: flex;
+        margin-right: 10%;
+    }
+    a {
+        text-decoration: none;
+        img {
+            margin: 0 10px;
+        }
+    }
+    .link-wrapper {
+        justify-content: space-between;
+        text-align: left;
+
+        margin-right: 10%;
     }
 }

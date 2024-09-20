@@ -181,7 +181,57 @@
 </section>
 
 <footer class="bg-white">
+    <div class="logo-wrapper">
+        <img src="{{asset('imgs/TRIAD-Logo-v01-01.svg')}}" alt="triad-logo">
+    </div>
 
+    <div class="member-wrapper text-green">
+        <p class="">
+            Triad is a member of
+            <a href="#" class="text-green">DevinBand
+                <img src="{{asset('imgs/arrow-link.svg')}}" alt="arrow-link">
+            </a>
+        </p>
+        <p>
+            We use
+            <a href="#" class="text-green">Allfred
+                <img src="{{asset('imgs/arrow-link.svg')}}" alt="arrow-link">
+            </a>
+        </p>
+        <p>
+            for agency management
+        </p>
+    </div>
+
+    <div class="link-wrapper">
+        <p>
+            Try our super useful newsletter!
+        </p>
+        <p class="text-dark">
+            <a href="" class="text-dark">Home</a>,
+            <a href="" class="text-dark">About</a>,
+            <a href="" class="text-dark">Work</a>,
+            <a href="" class="text-dark">Services</a>,
+            <a href="" class="text-dark">Contact</a>,
+            <a href="" class="text-dark">Kariéra</a>,
+            <a href="" class="text-dark">Blog</a>,
+            <a href="" class="text-dark">Privacy policy</a>
+        </p>
+    </div>
+    <div class="link-wrapper">
+        <p>
+            your@email.here
+            <a href="" class="text-green ms-1 decoration-underline">Sign me up</a>
+        </p>
+        <p class="text-green">
+            <a href="" class="text-green">Instagram</a>,
+            <a href="" class="text-green">Facebook</a>,
+            <a href="" class="text-green">YouTube</a>,
+            <a href="" class="text-green">Spotify</a>,
+            <a href="" class="text-green">LinkedIn</a>,
+            <a href="" class="text-green">TikTok</a>,
+        </p>
+    </div>
 </footer>
 
 </body>
