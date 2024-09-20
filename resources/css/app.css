@@ -285,9 +285,9 @@ input[type="checkbox"] {
         position: absolute;
         content: "";
         background-image: url("../../public/imgs/footer-img.png");
-        background-size: cover; /* Ensures the image covers the pseudo-element */
-        width: 100%; /* Set a width */
-        height: 100%; /* Set a height */
+        background-size: cover;
+        width: 100%;
+        height: 100%;
         z-index: 0;
     }
 
