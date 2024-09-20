@@ -136,14 +136,14 @@
                 required></textarea>
 
 
-            <label for="agree" class="fs-0-75">
+            <label for="agree" class="">
                 <input type="checkbox" id="agree" name="agree">
                 Súhlasím so spracovaním
                 <a href="" class="text-green">
                     osobných údajov
                 </a>
             </label>
-            <button type="submit">Odoslať</button>
+            <button type="submit">Odošli a vyhodnoť</button>
         </div>
     </div>
 </section>
