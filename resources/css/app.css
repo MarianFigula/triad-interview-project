@@ -13,7 +13,7 @@ html {
     font-size: 16px;
 }
 
-body {
+body, html {
     margin: 0;
     overflow-x: hidden;
 }
@@ -70,7 +70,10 @@ section {
     min-height: 70vh;
     .section-content-wrapper {
         height: 100vh;
-        padding: 10% 10% 0 10%;
+        box-sizing: border-box;
+        flex: 1;
+        width: 100%;
+        padding: 5%;
     }
 }
 
