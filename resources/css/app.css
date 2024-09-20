@@ -70,9 +70,9 @@ section {
 }
 
 .vertical-line {
-    margin: 30vh auto 0 auto;
+    margin: 20vh auto 0 auto;
     height: 80vh;
-    width: 2px;
+    width: 1px;
     background-color: var(--primary-white);
     opacity: 0.1;
     border: none;
@@ -156,4 +156,73 @@ section {
     .wosa-wrapper {
         flex-wrap: wrap;
     }
+}
+
+
+/* ----- */
+.form-section-content-wrapper {
+    display: flex;              /* Flexbox for form layout */
+    justify-content: space-between;
+    align-items: flex-start;    /* Align items at the top */
+    padding: 5% 10%;
+    width: 100%;
+}
+
+.form-left, .form-right {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    h2 {
+        text-align: center;
+        margin-bottom: 6rem;
+    }
+}
+
+.form-left label, .form-right label {
+    margin: 1rem 0;
+    text-transform: uppercase;
+    color: rgba(242, 240, 228,0.6);
+}
+
+input, textarea {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    width: 90%;
+    background-color: var(--primary-dark);
+    color: var(--primary-white);
+    border: 1px solid rgba(242, 240, 228,0.1);
+    border-radius: 4px;
+    &::placeholder {
+        color: var(--primary-white);
+    }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:focus {
+    -webkit-text-fill-color: var(--primary-white) !important;
+    -webkit-box-shadow: 0 0 0px 1000px var(--primary-dark) inset !important;
+    background-color: var(--primary-dark) !important;
+}
+
+
+
+textarea {
+    resize: none;
+    border-color: var(--green);
+    background: rgba(70, 63, 58, 0.1);
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    background-color: var(--green);
+    color: var(--primary-dark);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--light-blue);
 }
