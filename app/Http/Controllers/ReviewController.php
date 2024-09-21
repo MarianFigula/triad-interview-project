@@ -30,6 +30,9 @@ class ReviewController extends Controller
                 'file_path' => $filePath,
             ]);
         });
-        return redirect()->route('review.index')->with('success', 'Review submitted successfully!');
+        session()->flash('success');
+
+        return redirect()->route('success')->with('success', 'Review submitted successfully!');
+
     }
 }
