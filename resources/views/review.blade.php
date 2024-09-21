@@ -165,6 +165,15 @@
         </div>
     </form>
 </section>
+@if ($errors->any())
+    <div class="errors">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
 
 <section class="bg-white">
     <div class="section-content-wrapper">
