@@ -99,7 +99,8 @@
 </section>
 
 <section class="bg-dark">
-    <div class="form-section-content-wrapper">
+    <form action="" method="POST" class="form-section-content-wrapper">
+
         <div class="form-left">
             <h2 class="">
                 <img src="{{asset('imgs/number-one-in-circle.svg')}}" alt="one">
@@ -150,7 +151,7 @@
                 <button type="submit" class="fw-bold">Odošli a vyhodnoť</button>
             </div>
         </div>
-    </div>
+    </form>
 </section>
 
 <section class="bg-white">
