@@ -29,7 +29,46 @@ in project public folder `public\storage\uploads`**)
 ## Technologies
 
 - Laravel
+- Laragon - for creating Laravel project and running MySQL
 - Blade
 - MySQL
 - Javascript
 - CSS
+
+
+## Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/MarianFigula/triad-interview-project.git
+cd <project-directory>
+```
+2. Install dependencies
+```bash
+composer install
+npm install
+```
+3. Copy configuration from `environment.example` file to your `.env`
+
+But the config is default.
+
+4. Generate application key
+```bash
+php artisan key:generate
+```
+
+5. Run migrations
+```bash
+php artisan migrate
+```
+
+6. Start the local development server
+```bash
+php artisan serve
+```
+7. Start a development server that watches 
+for file changes and automatically reloads the application
+
+```bash
+npm run dev
+```
