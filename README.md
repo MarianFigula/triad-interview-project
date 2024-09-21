@@ -109,3 +109,15 @@ form submissions.
    It should not be publicly accessible through navigation.
 
    **Named** Route: `success`
+
+## Validation
+
+### Frontend Validation
+Implemented using JavaScript to ensure that user
+inputs are validated before submission. This includes
+checks for empty fields, valid email formats, and file uploads.
+
+### Backend Validation
+Utilizes custom request classes (`StoreReviewRequest`)
+to validate user inputs on the server-side, ensuring data 
+integrity before storing it in the database.
