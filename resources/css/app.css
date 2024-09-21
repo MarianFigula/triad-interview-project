@@ -5,7 +5,7 @@
     --primary-dark: #000000;
     --green: #81DD77;
     --light-blue: #91DDEE;
-
+    --danger: #d90429;
 }
 
 html {
@@ -149,6 +149,9 @@ section {
 
 .text-dark {
     color: var(--primary-dark);
+}
+.text-danger {
+    color: var(--danger);
 }
 
 .bg-white {
