@@ -42,14 +42,14 @@ class StoreReviewRequest extends FormRequest
     public function messages(): array
     {
         return [
-            'name.required' => 'Please enter your name.',
-            'email.required' => 'Email is required.',
-            'email.email' => 'Please provide a valid email address.',
-            'project_description.required' => 'Please provide a project description.',
-            'agreed.accepted' => 'You must agree to the terms.',
-            'file.required' => 'Please upload a file.',
-            'file.mimes' => 'The file must be a PDF, JPG, JPEG, PNG, DOC, or DOCX.',
-            'file.max' => 'The file size must not exceed 10 MB.',
+            'name.required' => 'Zadaj svoje meno.',
+            'email.required' => 'Pole Email je povinné.',
+            'email.email' => 'Uveď platnú e-mailovú adresu.',
+            'project_description.required' => 'Uveď opis projektu.',
+            'agreed.accepted' => 'Musíte súhlasiť s podmienkami.',
+            'file.required' => 'Nahrajte súbor.',
+            'file.mimes' => 'Súbor musí byť vo formáte PDF, JPG, JPEG, PNG, DOC alebo DOCX.',
+            'file.max' => 'Veľkosť súboru nesmie presiahnuť 10 MB.',
         ];
     }
 
