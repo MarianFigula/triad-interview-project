@@ -13,7 +13,6 @@ class ReviewController extends Controller
         return view('review');
     }
 
-    // TODO: stricter validation
     public function store(StoreReviewRequest $request) {
         DB::transaction(function () use ($request) {
             $filePath = null;
