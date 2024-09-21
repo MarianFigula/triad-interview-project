@@ -128,7 +128,8 @@
                 type="file"
                 id="file"
                 name="file"
-                accept=".pdf, .png, .jpg, .jpeg, .doc, .docx">
+                accept=".pdf, .png, .jpg, .jpeg, .doc, .docx"
+            >
         </div>
 
         <hr class="vertical-line"/>
@@ -149,7 +150,7 @@
             <div class="agreement-wrapper">
                 <div class="agreement">
                     <label for="agree"></label>
-                    <input type="checkbox" id="agree" name="agree">
+                    <input type="checkbox" id="agree" name="agree" required>
                     Súhlasím so spracovaním
                     <a href="" class="text-green">
                         osobných údajov
