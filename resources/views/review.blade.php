@@ -2,7 +2,8 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
 
     <title>Laravel</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -60,7 +61,7 @@
             môže prísť pozvanie na kávu od nás.
         </p>
         <div class="arrow-wrapper mt-5">
-            <img src="{{asset('imgs/arrow.svg')}}" alt="arrow" style="text-align: center">
+            <img src="{{asset('imgs/arrow.svg')}}" alt="arrow">
         </div>
     </div>
     <div class="section-content-wrapper bg-white">
@@ -103,7 +104,8 @@
 
         <div class="form-left">
             <h2 class="">
-                <img src="{{asset('imgs/number-one-in-circle.svg')}}" alt="one">
+                <img src="{{asset('imgs/number-one-in-circle.svg')}}"
+                     alt="one">
                 Nahraj CV
             </h2>
             <label for="name">Napíš nám ako sa voláš</label>
@@ -129,7 +131,8 @@
 
         <div class="form-right">
             <h2 class="">
-                <img src="{{asset('imgs/number-two-in-circle.svg')}}" alt="one">
+                <img src="{{asset('imgs/number-two-in-circle.svg')}}"
+                     alt="two">
                 Opíš prácu</h2>
             <label for="description">Opis práce</label>
             <textarea
