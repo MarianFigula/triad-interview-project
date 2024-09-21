@@ -6,7 +6,7 @@
           content="width=device-width, initial-scale=1">
 
     <title>Laravel</title>
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @vite(['resources/css/app.css','resources/css/form.css', 'resources/js/app.js'])
 </head>
 <body>
 <div class="green-frame bg-dark">
