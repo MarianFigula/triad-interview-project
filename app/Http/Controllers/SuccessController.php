@@ -8,6 +8,12 @@ class SuccessController extends Controller
 {
     public function index()
     {
-        return view('/success');
+        if (!session()->has('success')) {
+            return redirect()->route('review.index');
+        }
+
+        session()->forget('success');
+
+        return view('success');
     }
 }
