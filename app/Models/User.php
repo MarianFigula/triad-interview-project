@@ -19,5 +19,6 @@ class User extends Model
         'email',
         'project_description',
         'agreed',
+        'file_path'
     ];
 }

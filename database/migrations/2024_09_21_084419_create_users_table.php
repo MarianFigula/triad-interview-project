@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->text('project_description');
             $table->boolean('agreed');
+            $table->string('file_path');
             $table->timestamps();
         });
     }
