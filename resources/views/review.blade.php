@@ -133,6 +133,15 @@
                 name="file"
                 accept=".pdf, .png, .jpg, .jpeg, .doc, .docx"
             >
+            @if ($errors->any())
+                <div class="errors">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
         </div>
 
         <hr class="vertical-line"/>
