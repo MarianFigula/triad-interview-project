@@ -32,6 +32,7 @@ h1 {
     font-size: 4rem;
     font-weight: 900;
 }
+
 h2 {
     font-size: 3rem;
 }
@@ -49,12 +50,14 @@ h2 {
     font-weight: bold;
 }
 
-.mt-3{
+.mt-3 {
     margin-top: 3rem;
 }
-.mt-5{
+
+.mt-5 {
     margin-top: 5rem;
 }
+
 .ms-3 {
     margin-left: 3rem;
 }
@@ -76,6 +79,7 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 70vh;
+
     .section-content-wrapper {
         min-height: 100vh;
         box-sizing: border-box;
@@ -97,15 +101,18 @@ section {
 .wosa-wrapper {
     display: flex;
     gap: 50px;
+
     .wosa-img {
         display: flex;
         position: relative;
         align-items: center;
+
         img {
             z-index: 2;
             border-radius: 50%;
         }
-        &::before{
+
+        &::before {
             content: '';
             position: absolute;
             top: 40%;
@@ -122,6 +129,7 @@ section {
     position: relative;
     color: var(--light-blue);
     margin-bottom: 50px;
+
     &::before {
         position: absolute;
         content: "Review";
@@ -158,6 +166,7 @@ section {
 .text-dark {
     color: var(--primary-dark);
 }
+
 .text-danger {
     color: var(--danger);
 }
@@ -181,6 +190,7 @@ section {
 
 .triad-group {
     position: relative;
+
     img {
         width: 100%;
     }
@@ -217,8 +227,10 @@ footer {
     min-height: 50vh;
     padding-left: 10%;
     font-weight: 800;
+
     .logo-wrapper {
         position: relative;
+
         &::after {
             position: absolute;
             content: "";
@@ -229,16 +241,20 @@ footer {
             background-color: var(--green);
         }
     }
+
     .member-wrapper, .link-wrapper {
         display: flex;
         margin-right: 10%;
     }
+
     a {
         text-decoration: none;
+
         img {
             margin: 0 10px;
         }
     }
+
     .link-wrapper {
         justify-content: space-between;
         text-align: left;
@@ -248,15 +264,16 @@ footer {
 }
 
 
-
 @media screen and (max-width: 992px) {
     section, .form-section-content-wrapper {
         flex-direction: column;
     }
+
     .form-left, .form-right {
         width: 90%;
         margin: 0 auto;
     }
+
     input, textarea {
         width: auto;
     }
@@ -265,9 +282,11 @@ footer {
     .vertical-line {
         display: none;
     }
+
     .wosa-wrapper {
         flex-wrap: wrap;
         justify-content: center;
+
         h2, p {
             text-align: center;
         }
