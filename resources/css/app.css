@@ -175,6 +175,17 @@ section {
     width: 100%;
 }
 
+.errors {
+    background-color: var(--primary-dark);
+    color: var(--danger);
+    padding-left: 10%;
+    ul {
+        margin: 0;
+        padding: 5vh 0 10vh 0;
+        list-style-type: none;
+    }
+}
+
 
 .form-left, .form-right {
     display: flex;
