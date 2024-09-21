@@ -1,10 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('reviewForm');
     const fileInput = document.getElementById('file');
+    const fileNameLabel = document.getElementById('fileName');
 
     fileInput.addEventListener('change', () => {
-        document.getElementById('fileName').textContent =
-            this.files[0] ? this.files[0].name : 'Nahraj svoje CV';
+        fileNameLabel.textContent = fileInput.files.length > 0  ?
+            fileInput.files[0].name :fileNameLabel.textContent = 'Nahraj svoje CV';
     });
 
     form.addEventListener('submit', (event) => {
