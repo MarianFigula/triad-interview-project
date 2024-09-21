@@ -123,7 +123,7 @@
                    required>
 
             <label for="file" class="custom-file-upload">
-                <span class="text-green
+                <span id="fileName" class="text-green
                 text-underline-offset-0-5">
                     Nahraj svoje CV</span>
             </label>
@@ -260,6 +260,12 @@
             errors.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
         @endif
+
+        document.getElementById('file')
+            .addEventListener('change', function () {
+                document.getElementById('fileName').textContent =
+                this.files[0] ? this.files[0].name : 'Nahraj svoje CV';
+        });
     });
 </script>
 </html>
