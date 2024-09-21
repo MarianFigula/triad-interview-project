@@ -170,11 +170,11 @@ section {
 /* ----- */
 .form-section-content-wrapper {
     display: flex;              /* Flexbox for form layout */
-    justify-content: space-between;
     align-items: flex-start;    /* Align items at the top */
     padding: 5% 10%;
     width: 100%;
 }
+
 
 .form-left, .form-right {
     display: flex;
