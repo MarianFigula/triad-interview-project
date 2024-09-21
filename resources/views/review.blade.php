@@ -118,18 +118,18 @@
                    placeholder="E-mail"
                    required>
 
-{{--            <label for="file" class="custom-file-upload">--}}
-{{--                <a href=""--}}
-{{--                   class="text-green--}}
-{{--                text-underline-offset-0-5">--}}
-{{--                    Nahraj svoje CV</a>--}}
-{{--            </label>--}}
-{{--            <input--}}
-{{--                type="file"--}}
-{{--                id="file"--}}
-{{--                name="file"--}}
-{{--                accept=".pdf, .png, .jpg, .jpeg, .doc, .docx"--}}
-{{--            >--}}
+            <label for="file" class="custom-file-upload">
+                <a href=""
+                   class="text-green
+                text-underline-offset-0-5">
+                    Nahraj svoje CV</a>
+            </label>
+            <input
+                type="file"
+                id="file"
+                name="file"
+                accept=".pdf, .png, .jpg, .jpeg, .doc, .docx"
+            >
         </div>
 
         <hr class="vertical-line"/>
