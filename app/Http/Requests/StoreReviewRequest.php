@@ -11,7 +11,7 @@ class StoreReviewRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -22,7 +22,20 @@ class StoreReviewRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'name' => 'required|string|max:255',
+            'email' => 'required|email',
+            'project_description' => 'required|string',
+            'agreed' => 'accepted',
+            'file' => 'required|file|mimes:pdf,jpg,jpeg,png,doc,docx|max:10240',
         ];
+    }
+
+    protected function prepareForValidation() : array
+    {
+        $this->merge([
+            'name' => trim($this->name),
+            'email' => trim($this->email),
+            'project_description' => trim($this->project_description),
+        ]);
     }
 }
