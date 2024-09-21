@@ -12,8 +12,7 @@ class ReviewController extends Controller
     }
 
     // TODO: stricter validation
-    public function store(Request $request)
-    {
+    public function store(Request $request) {
         $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|email',
