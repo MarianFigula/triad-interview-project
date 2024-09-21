@@ -31,7 +31,7 @@
                     alt="Wosa">
             </div>
         </div>
-        <p class="mt-5 fw-bold">
+        <p class="mt-5 fw-bold" style="text-align: center">
             Chceš si feedback vypočuť neskôr?
             <a href=""
                class="ms-1 text-underline-offset-0-5 text-dark">
