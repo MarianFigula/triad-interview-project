@@ -269,12 +269,7 @@
             errors.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
         @endif
+    })
 
-        document.getElementById('file')
-            .addEventListener('change', function () {
-                document.getElementById('fileName').textContent =
-                this.files[0] ? this.files[0].name : 'Nahraj svoje CV';
-        });
-    });
 </script>
 </html>
