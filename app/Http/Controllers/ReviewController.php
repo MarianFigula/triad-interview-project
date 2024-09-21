@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\StoreReviewRequest;
 use App\Models\User;
+use Dotenv\Util\Str;
 
 class ReviewController extends Controller
 {
@@ -23,7 +24,7 @@ class ReviewController extends Controller
             'email' => $request->validated()['email'],
             'project_description' => $request->validated()['project_description'],
             'agreed' => $request->validated()['agreed'] ? 1 : 0,
-            'file_path' => $filePath
+            'file_path' => $filePath ?? null,
         ]);
 
         return redirect()->route('review.index')->with('success', 'Review submitted successfully!');
