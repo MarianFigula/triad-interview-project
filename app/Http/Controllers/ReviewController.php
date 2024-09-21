@@ -15,8 +15,8 @@ class ReviewController extends Controller
     public function store(Request $request) {
         $request->validate([
             'name' => 'required|string|max:255',
-            'email' => 'required|email',
-            'project_description' => 'required|string',
+            'email' => 'required|email|unique:users|max:255',
+            'project_description' => 'required|string|max:512',
             'agreed' => 'accepted',
         ]);
 
