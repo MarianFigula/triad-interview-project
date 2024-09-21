@@ -100,8 +100,8 @@
 </section>
 
 <section class="bg-dark">
-    <form action="" method="POST" class="form-section-content-wrapper">
-
+    <form action="{{ route('review.store') }}" method="POST" class="form-section-content-wrapper">
+        @csrf
         <div class="form-left">
             <h2 class="">
                 <img src="{{asset('imgs/number-one-in-circle.svg')}}"
@@ -118,18 +118,18 @@
                    placeholder="E-mail"
                    required>
 
-            <label for="file" class="custom-file-upload">
-                <a href=""
-                   class="text-green
-                text-underline-offset-0-5">
-                    Nahraj svoje CV</a>
-            </label>
-            <input
-                type="file"
-                id="file"
-                name="file"
-                accept=".pdf, .png, .jpg, .jpeg, .doc, .docx"
-            >
+{{--            <label for="file" class="custom-file-upload">--}}
+{{--                <a href=""--}}
+{{--                   class="text-green--}}
+{{--                text-underline-offset-0-5">--}}
+{{--                    Nahraj svoje CV</a>--}}
+{{--            </label>--}}
+{{--            <input--}}
+{{--                type="file"--}}
+{{--                id="file"--}}
+{{--                name="file"--}}
+{{--                accept=".pdf, .png, .jpg, .jpeg, .doc, .docx"--}}
+{{--            >--}}
         </div>
 
         <hr class="vertical-line"/>
@@ -142,7 +142,7 @@
             <label for="description">Opis práce</label>
             <textarea
                 id="description"
-                name="description"
+                name="project_description"
                 rows="15"
                 placeholder="Sem opíš svoju prácu, ktorú máš rád, alebo chceš vylepšiť"
                 required></textarea>
@@ -150,7 +150,7 @@
             <div class="agreement-wrapper">
                 <div class="agreement">
                     <label for="agree"></label>
-                    <input type="checkbox" id="agree" name="agree" required>
+                    <input type="checkbox" id="agree" name="agreed" required>
                     Súhlasím so spracovaním
                     <a href="" class="text-green">
                         osobných údajov
