@@ -180,7 +180,7 @@
             O2, VÚB, Fun Rádio, Rádio Vlna, LIDL, Martinus,
             Slido, Corwin či mnohí ďalší.
         </p>
-        <p>
+        <p class="what-we-like">
             Baví nás robiť svetovú prácu ale popri tom si ulietať
             aj na humore na hrane či láskavej šikane.
             V TRIADe žijeme reklamou priamo pri hrade v malebnom

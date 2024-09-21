@@ -291,6 +291,11 @@ input[type="checkbox"] {
     }
 }
 
+.what-we-like {
+    margin: 5rem auto;
+    width: 80%;
+}
+
 
 .triad-group {
     position: relative;
