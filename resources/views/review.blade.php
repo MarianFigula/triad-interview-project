@@ -100,7 +100,7 @@
 </section>
 
 <section class="bg-dark">
-    <form action="{{ route('review.store') }}" method="POST" class="form-section-content-wrapper">
+    <form id="reviewForm" action="{{ route('review.store') }}" method="POST" class="form-section-content-wrapper">
         @csrf
         <div class="form-left">
             <h2 class="">
@@ -165,15 +165,6 @@
         </div>
     </form>
 </section>
-@if ($errors->any())
-    <div class="errors">
-        <ul>
-            @foreach ($errors->all() as $error)
-                <li>{{ $error }}</li>
-            @endforeach
-        </ul>
-    </div>
-@endif
 
 <section class="bg-white">
     <div class="section-content-wrapper">
@@ -257,4 +248,15 @@
 </footer>
 
 </body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        @if ($errors->any())
+        const errors = document.getElementById('reviewForm');
+        if (errors) {
+            errors.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        @endif
+    });
+</script>
 </html>
