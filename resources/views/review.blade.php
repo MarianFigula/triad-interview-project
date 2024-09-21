@@ -86,7 +86,7 @@
                 </p>
             </div>
         </div>
-        <p>
+        <p class="mt-3">
             Držtieľ ocenenia Filip,
             majiteľ stoviek ocenení od slovenských grand prix,
             cez New York až po globálne ocenenia na Warc,
