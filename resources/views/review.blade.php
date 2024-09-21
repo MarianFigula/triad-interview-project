@@ -123,10 +123,9 @@
                    required>
 
             <label for="file" class="custom-file-upload">
-                <a href=""
-                   class="text-green
+                <span class="text-green
                 text-underline-offset-0-5">
-                    Nahraj svoje CV</a>
+                    Nahraj svoje CV</span>
             </label>
             <input
                 type="file"
