@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [ReviewController::class, 'index'])->name('review.index');;
-
+Route::get('/', [ReviewController::class, 'index'])->name('review.index');
+Route::post('/', [ReviewController::class, 'store'])->name('review.store');
