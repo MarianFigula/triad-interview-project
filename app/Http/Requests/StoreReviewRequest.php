@@ -30,7 +30,7 @@ class StoreReviewRequest extends FormRequest
         ];
     }
 
-    protected function prepareForValidation() : array
+    protected function prepareForValidation()
     {
         $this->merge([
             'name' => trim($this->name),
