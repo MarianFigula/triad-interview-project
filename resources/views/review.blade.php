@@ -100,7 +100,11 @@
 </section>
 
 <section class="bg-dark">
-    <form id="reviewForm" action="{{ route('review.store') }}" method="POST" class="form-section-content-wrapper">
+    <form id="reviewForm"
+          action="{{ route('review.store') }}"
+          method="POST"
+          enctype="multipart/form-data"
+          class="form-section-content-wrapper">
         @csrf
         <div class="form-left">
             <h2 class="">
