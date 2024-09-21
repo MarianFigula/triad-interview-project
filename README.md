@@ -79,3 +79,29 @@ npm run dev
 - `app/Http/Models`- Model to put into database (only `User` in our case).
 - `resources/views` - Blade templates for rendering HTML.
 - `public/images` - Contains the public app images used from Figma.
+
+## Routes
+### 1. `GET / `(Review Page)
+
+   **Controller**: `ReviewController@index`
+
+   **Description**: The route loads the main review 
+   form page where users can submit their reviews.
+
+   **Named Route:** `review.index`
+### 2. `POST /` (Submit Review)
+   **Controller:** `ReviewController@store`
+
+   **Description:** The route handles the form submission of the review.
+   It processes and stores the review details in the database.
+
+   **Named Route:** `review.store`
+### 3. `GET /success` (Success Page)
+   **Controller**: `SuccessController@index`
+
+   **Description**: The route is responsible for loading a success page,
+   which is only accessible after a successful form submission. 
+   It should not be publicly accessible through navigation.
+
+   **Named** Route: `success`
+
