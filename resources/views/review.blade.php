@@ -264,9 +264,9 @@
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         @if ($errors->any())
-        const errors = document.getElementById('reviewForm');
-        if (errors) {
-            errors.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        const form = document.getElementById('reviewForm');
+        if (form) {
+            form.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
         @endif
     })
