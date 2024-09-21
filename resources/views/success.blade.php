@@ -24,14 +24,14 @@
         </p>
     </div>
     <div class="section-content-wrapper bg-white">
-        <div class="wosa-wrapper">
+        <div class="wosa-wrapper" style="justify-content: center">
             <div class="wosa-img">
                 <img
                     src="{{asset('imgs/wosa.svg')}}"
                     alt="Wosa">
             </div>
         </div>
-        <p class="mt-5">
+        <p class="mt-5 fw-bold">
             Chceš si feedback vypočuť neskôr?
             <a href=""
                class="ms-1 text-underline-offset-0-5 text-dark">
