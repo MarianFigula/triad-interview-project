@@ -294,6 +294,9 @@ input[type="checkbox"] {
 
 .triad-group {
     position: relative;
+    img {
+        width: 100%;
+    }
 
     &::before,
     &::after {
@@ -352,7 +355,7 @@ footer {
     .link-wrapper {
         justify-content: space-between;
         text-align: left;
-
+        gap: 15px;
         margin-right: 10%;
     }
 }
