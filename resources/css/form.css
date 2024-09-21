@@ -1,6 +1,6 @@
 .form-section-content-wrapper {
-    display: flex;              /* Flexbox for form layout */
-    align-items: flex-start;    /* Align items at the top */
+    display: flex; /* Flexbox for form layout */
+    align-items: flex-start; /* Align items at the top */
     padding: 5% 10%;
     width: 100%;
 }
@@ -8,6 +8,7 @@
 .errors {
     background-color: var(--primary-dark);
     color: var(--danger);
+
     ul {
         margin: 0;
         padding: 5vh 0 10vh 0;
@@ -20,6 +21,7 @@
     display: flex;
     flex-direction: column;
     width: 45%;
+
     h2 {
         display: flex;
         justify-content: center;
@@ -31,7 +33,7 @@
 .form-left label, .form-right label {
     margin: 1rem 0;
     text-transform: uppercase;
-    color: rgba(242, 240, 228,0.6);
+    color: rgba(242, 240, 228, 0.6);
 }
 
 input, textarea {
@@ -40,8 +42,9 @@ input, textarea {
     width: 90%;
     background-color: var(--primary-dark);
     color: var(--primary-white);
-    border: 1px solid rgba(242, 240, 228,0.1);
+    border: 1px solid rgba(242, 240, 228, 0.1);
     border-radius: 10px;
+
     &::placeholder {
         color: var(--primary-white);
     }
@@ -57,12 +60,11 @@ textarea:-webkit-autofill:focus {
 }
 
 
-
 textarea {
     resize: none;
     border-color: var(--green);
     background-color: rgba(70, 63, 58, 0.3);
-    box-shadow:  20px 20px 100px rgba(70, 63, 58, 0.3),
+    box-shadow: 20px 20px 100px rgba(70, 63, 58, 0.3),
     -20px -20px 100px rgba(70, 63, 58, 0.3);
 }
 
@@ -99,8 +101,9 @@ input[type="checkbox"] {
     cursor: pointer;
 }
 
-.agreement{
+.agreement {
     width: 50%;
+
     input {
         margin-bottom: 0;
     }
@@ -112,11 +115,12 @@ input[type="checkbox"] {
     position: relative;
     padding: 6px 12px;
     cursor: pointer;
+
     &::after {
         content: "PDF, JPG, PNG, DOC";
         font-style: italic;
         margin-left: 20px;
         font-size: 0.75rem;
-        color: rgba(242, 240, 228,0.4)
+        color: rgba(242, 240, 228, 0.4)
     }
 }
