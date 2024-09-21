@@ -178,7 +178,6 @@ section {
 .errors {
     background-color: var(--primary-dark);
     color: var(--danger);
-    padding-left: 10%;
     ul {
         margin: 0;
         padding: 5vh 0 10vh 0;
