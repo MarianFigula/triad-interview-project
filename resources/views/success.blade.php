@@ -15,8 +15,11 @@
         <h2 class="mt-5 ms-3 text-green">
             Ďakujeme za zaslanie popisu tvojej práce.
         </h2>
-        <p>
-            <span>Skutočný Wosa si ju čoskoro pozrie</span> a možno
+        <p class="ms-3">
+            <span class="fw-bold">
+                Skutočný Wosa si ju čoskoro pozrie
+            </span>
+            a možno
             sa ti ozve. Držíme palce.
         </p>
     </div>
@@ -28,6 +31,13 @@
                     alt="Wosa">
             </div>
         </div>
+        <p class="mt-5">
+            Chceš si feedback vypočuť neskôr?
+            <a href=""
+               class="ms-1 text-underline-offset-0-5 text-dark">
+                Stiahni si ho
+            </a>
+        </p>
     </div>
 
 </section>
