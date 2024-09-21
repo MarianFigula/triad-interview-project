@@ -72,3 +72,10 @@ for file changes and automatically reloads the application
 ```bash
 npm run dev
 ```
+
+## File Structure
+- `app/Http/Controllers`- Contains the controllers for handling requests and responses.
+- `app/Http/Requests`- Custom request classes for validating form submissions.
+- `app/Http/Models`- Model to put into database (only `User` in our case).
+- `resources/views` - Blade templates for rendering HTML.
+- `public/images` - Contains the public app images used from Figma.
